@@ -1,0 +1,92 @@
+.App {
+ 
+  background-image: linear-gradient(#4793eb, rgb(250, 250, 250));
+  background-color: yellow;
+  height: 100vh;
+  width: 100vw;
+  font-family: cursive;
+  
+}
+
+#client-testimonial-carousel {min-height: 200px;}
+
+
+.container{
+ height: 75vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 60vw;
+  
+  
+  
+  
+}
+
+
+
+.maincomps{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tcont{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+  margin-top: 5vh
+}
+.starkcont{
+  height: 10vh;
+
+  
+}
+
+.maincomps {
+  display: flex;
+  min-height: 100vh;
+  
+  align-items: center;
+  justify-content: space-around;
+  background-color: #bfdfec;
+  font-family: system-ui, calibri, serif;
+  background-repeat: repeat-x;
+  background-image: url("https://i.pinimg.com/originals/26/df/fd/26dffd2aa032d83aaf9642a4dc2611c4.jpg");
+  animation: movement 10s linear infinite;
+}
+@media screen  and (max-width:600px){
+  .maincomps{
+    flex-direction: column-reverse;
+    gap: 10px;
+    min-height: 120vh;
+    justify-content: space-evenly;
+    
+  }
+  .tcont1{
+    display: none;
+  }
+  .tcont{
+    margin-top: 0%;
+  }
+
+  
+}
+
+@keyframes movement {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 560px 0px;
+  }
+}
+
+.carouselhwp{
+  height: 700px;
+ 
+  width:"50px";
+  padding-left:"40px"}
